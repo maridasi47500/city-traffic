@@ -1,0 +1,2 @@
+class NetworkStuff < ApplicationRecord
+end

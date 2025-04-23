@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Network stuffs</h1>
+
+<div id="network_stuffs">
+  <% @network_stuffs.each do |network_stuff| %>
+    <%= render network_stuff %>
+    <p>
+      <%= link_to "Show this network stuff", network_stuff %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New network stuff", new_network_stuff_path %>
